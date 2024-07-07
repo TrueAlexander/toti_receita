@@ -1,0 +1,135 @@
+/*reset default CSS*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+button{padding:0;border:none;color: inherit;background-color:transparent;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 34px;
+  background-color: antiquewhite;
+}
+
+section ul li{
+  list-style: initial;
+}
+
+h1, h2 {
+  color: #FFB300;
+  font-weight: 900; 
+}
+
+h1 {
+  font-size: 89px;
+  line-height: 79px;
+ 
+}
+
+h2 {
+  font-size: 34px;
+  line-height: 42px;
+  text-indent: 30px; 
+}
+
+p {
+  font-size: 19px;
+  margin: 15px 0;
+}
+
+.container {
+  background-color: white;
+  max-width: 883px;
+  padding: 0 70px;
+  margin: 0 auto;
+}
+
+.header {
+ height: 70px;
+}
+
+.nav__list {
+  display: flex;
+  gap: 30px;
+
+}
+
+.nav__item a {
+  color: black;
+  font-size: 18px;
+  line-height: 70px;
+  text-transform: uppercase;
+}
+
+.nav__item a:hover {
+  color: #FFB300;
+}
+
+.main {
+  /* margin: 24.5px 0; */
+}
+
+.main__title::before {
+  content: "";
+  display: block;
+  width: 100%;
+  border-top: 3px solid #999999;
+  padding-top: 20px;
+}
+
+
+.main__img {
+  height: 374px;
+  overflow: hidden;
+  margin: 24.5px 0;
+}
+
+
+.main__img img {
+  object-fit: contain;
+  display: block;
+  width: 100%;
+}
+
+.main__return {
+  color: #0037B3;
+  text-decoration: underline;
+  text-transform: uppercase;
+  padding-bottom: 60px;
+}
+
+section {
+  padding-bottom: 50px;
+}
+
+section h2 {
+  margin-bottom: 50px;
+}
+
+section::before {
+  content: "";
+  display: block;
+  width: 100%;
+  border-top: 3px solid #999999;
+  padding-top: 20px;
+}
+
+.bom_apetite {
+  margin-top: 30px;
+}
